@@ -1,0 +1,51 @@
+
+
+
+<? xml version = "1.0" encoding = "UTF-8" ?>
+
+
+<!-- yah tag hai linearlayout wala -->
+<LinearLayout 
+    xmlns: android = "https://schemas.android.com/apk/res/android"
+    android: layout_width = "match_parent"
+    android: layout_height = "match_parent"
+    android: orientation = "vertical">
+
+
+    <TextView 
+        android: id = "@ + id/myText"
+        android: layout_width = "wrap_content"
+        android: layout_height = "wrap_content"
+        android: text = "Hello, bhai kaise ho aap XML !" />
+
+
+</LinearLayout>
+
+
+
+
+/*
+
+📌 Key XML Rules
+
+CONCEPTS     	EXPLANATION
+Root tag	Every layout starts with a root (LinearLayout, ConstraintLayout, etc.)
+Attributes	Inside tags, used to define properties like android:text, android:id
+Namespaces	xmlns:android=... is required in the root
+ID syntax	@+id/myText means you're creating an ID
+Dimensions	match_parent (fill space), wrap_content (fit to content)
+
+
+🧠 Common Android XML Tags
+
+Tag	     ....  Purpose
+
+TextView	    Displays text
+EditText	Input field
+Button	    Clickable button
+ImageView	Shows image
+LinearLayout	Aligns children vertically/horizontally
+ConstraintLayout	Advanced layout with constraints
+
+
+*/
