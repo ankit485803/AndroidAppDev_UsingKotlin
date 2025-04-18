@@ -1,0 +1,42 @@
+
+
+# 18th April 2025 (Friday - from IIRS ISRO Dehradun)  this file track the changes 
+
+
+
+
+# Set default behavior to automatically normalize line endings.
+* text=auto
+
+# Declare files that will always have CRLF line endings on checkout.
+*.bat text eol=crlf
+
+# Declare files that will always have LF line endings on checkout.
+*.sh text eol=lf
+
+# Kotlin/Java files
+*.kt text
+*.java text
+
+# XML files
+*.xml text
+
+# Android build configs
+*.gradle text
+*.properties text
+
+
+
+
+
+
+
+
+
+
+
+# USES
+# Controls how Git handles line endings (LF vs CRLF)
+# Manages diff settings for certain file types
+# Enables things like Git LFS (Large File Storage)
+# Helps in cross-platform development (Windows/macOS/Linux)
