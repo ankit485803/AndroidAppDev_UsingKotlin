@@ -1,0 +1,28 @@
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--yah ek first item will go here -->
+
+    <item
+        android:title="@string/taskankit"
+        android:icon="@drawable/ic_launcher_background"
+        android:id = "@+id/nav_task" />
+
+    <item android:icon="@drawable/ic_launcher_background"
+        android:title="NotesReadManab" />
+
+    <item android:id="@+id/nav_ai"
+        android:title="@string/chatbotbyankit"
+        android:icon="@drawable/ic_launcher_background" />
+
+    <item android:title="@string/mababprofile"
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_launcher_background" />
+
+
+
+
+</menu>
