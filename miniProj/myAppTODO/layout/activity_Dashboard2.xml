@@ -1,0 +1,50 @@
+
+
+<!-- of class 17th April Thurs we are adding new features -->
+
+
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+
+<android.coordinatorlayout.widget.Coordinatorlayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_container" />
+<!--this is for replacing fragment-->
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:fabCradleMargin="10dp">
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+    <!--hm log aag 17th April Thurs ko start se karge-->
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_gravity = "bottom"
+        android:layout_marginEnd = "16dp"
+        app:labelVisibilityMode="labeled"
+        android:layout_gravity = "bottom"
+        app:menu="@menu/bottom_nav_menu" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:src="@drawable/ic_launcher_background"
+        app:layout_anchor="@id/BottomAppbar"
+        android:id = "@+id/fab" />
+
+
+
