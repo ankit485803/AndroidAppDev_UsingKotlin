@@ -1,6 +1,11 @@
 
 
 
+//  follow this https://www.geeksforgeeks.org/how-to-implement-a-tablayout-in-android-using-viewpager-and-fragments/
+
+
+
+
 package com.example.myapptodo.activities
 
 import android.os.Bundle
