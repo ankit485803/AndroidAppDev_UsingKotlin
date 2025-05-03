@@ -7,5 +7,4 @@ new proj -> Phone and Tablate --  empty view activity -> packae name, mini SDK =
 
 
 
-
 */
